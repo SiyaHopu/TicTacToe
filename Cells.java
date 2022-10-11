@@ -5,7 +5,6 @@ public class Cells extends Board{
   
   public static void main(String [] args){
    
-    JFrame frame = new JFrame();
     
     // Creates buttons or cells for each grid space of the game board.
     
@@ -21,15 +20,15 @@ public class Cells extends Board{
     
     //Adds each button to the game board.
     
-    frame.add(b1);
-    frame.add(b2);
-    frame.add(b3);
-    frame.add(b4);
-    frame.add(b5);
-    frame.add(b6);
-    frame.add(b7);
-    frame.add(b8);
-    frame.add(b9);
+    super.gameBoard().add(b1);
+    super.gameBoard().add(b2);
+    super.gameBoard().add(b3);
+    super.gameBoard().add(b4);
+    super.gameBoard().add(b5);
+    super.gameBoard().add(b6);
+    super.gameBoard().add(b7);
+    super.gameBoard().add(b8);
+    super.gameBoard().add(b9);
     
   }
 }
