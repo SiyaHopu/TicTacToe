@@ -1,4 +1,4 @@
-public class Seed{
+public class Seed extends State{
 
 	public void main(String[] args){
 
