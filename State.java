@@ -12,6 +12,8 @@ public class State implements ActionListener{
 
 	boolean player1_turn, player2_turn; 
 
+	State(){
+	} 
 	public void fistTurn(){
 
 	} 
