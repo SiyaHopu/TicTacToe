@@ -9,13 +9,16 @@ public class State implements ActionListener{
 	JFrame frame = new JFrame();
 	JPanel title = new JPanel();
 	JLabel textL = new JLabel)();
-	public void fistTurn(){
 
-	boolean player1_turn, player2_turn;
+	boolean player1_turn, player2_turn; 
+
+	public void fistTurn(){
 
 	} 
 	public void xWins(){
+
 	} 
 	public void check(){
+
 	} 
 } 
