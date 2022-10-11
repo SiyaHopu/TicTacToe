@@ -7,7 +7,7 @@ public class Board{
   JFrame gameBoard;
   // Constuctor
   
-  Board(){
+  Board(int rows, int cols){
     
     // Initiates the game board
     gameBoard =  new JFrame();
@@ -24,7 +24,7 @@ public class Board{
     int rows = 3;
     int cols = 3;
     
-    new Board();
+    new Board(rows, cols);
     
   }
 }
